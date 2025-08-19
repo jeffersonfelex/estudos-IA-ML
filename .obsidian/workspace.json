@@ -41,16 +41,40 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Machine Learning/Matematica/Álgebra Linear/Álgebra Linear - Sumário.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Álgebra Linear - Sumário"
+            }
+          },
+          {
+            "id": "6b772077f886da89",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Machine Learning/Matematica/Álgebra Linear/Álgebra Linear - Sumário.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Álgebra Linear - Sumário"
+            }
+          },
+          {
+            "id": "cb68df93ac3bfc5d",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Visualização em gráfico"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -189,6 +213,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Criar nova base": false,
       "switcher:Abrir a troca rápida": false,
       "graph:Abrir visualização em gráfico": false,
       "canvas:Criar novo canvas": false,
@@ -197,12 +222,18 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "d73b75f3f7d9185a",
+  "active": "cb68df93ac3bfc5d",
   "lastOpenFiles": [
     "Sem título.canvas",
-    "Mapa de estudos.canvas",
+    "Machine Learning/Matematica/Escopo de estudos de cálculos.md",
+    "Machine Learning/Matematica/Álgebra Linear/Matrizes.md",
+    "Machine Learning/Matematica/Álgebra Linear/Álgebra Linear - Sumário.md",
+    "Machine Learning/Matematica/Álgebra Linear",
+    "Material de estudos/Álgebra Linear/Algebra Linear Boldrini.pdf",
+    "Machine Learning/Matematica/Álgebra Linear/Processos aleatórios - Cadeias de Markov.md",
+    "Material de estudos/Álgebra Linear",
     "README.md",
-    "Sem título.md",
+    "Mapa de estudos.canvas",
     "Material de estudos",
     "Machine learning/Matematica/Escopo de estudos de cálculos.md",
     "Machine Learning/Matematica/Álgebra Linear",
@@ -218,11 +249,7 @@
     "Material de estudos/OReilly - ML.pdf",
     "Material de estudos/OReilly - AD.pdf",
     "Material de estudos/Algebra Linear Boldrini.pdf",
-    "Material de estudos",
-    "Machine Learning/Matematica/Álgebra Linear/Matrizes.md",
-    "Machine Learning/Matematica/Álgebra Linear",
     "IAs generativas/Escopo de estudos de IAs generativas.md",
-    "IAs generativas",
     "Machine learning/Analise exploratória de dados/Escopo de estudos de analise exploratória de dados.md",
     "2025-08-14.md",
     "Machine learning/Estatísticas/Escopo de estudos de estatísticas.md",
@@ -232,9 +259,6 @@
     "Matemática.md",
     "Machine Learning/Sem título 2.md",
     "Machine Learning/Matematica.md",
-    "Machine Learning/Estática.md",
-    "Machine Learning/Sem título 5.md",
-    "Machine Learning/Sem título 8.md",
-    "Machine Learning/Sem título 7.md"
+    "Machine Learning/Estática.md"
   ]
 }
