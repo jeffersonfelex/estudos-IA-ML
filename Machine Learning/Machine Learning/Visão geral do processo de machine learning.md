@@ -6,9 +6,6 @@ Um dos processos mais famosos de mineração de dados (Processo padrão do merca
 4. Modelagem (Modeling)
 5. Avaliação (Evaluation)
 6. Implantação (Deployment)
-
-![[Pasted image 20250819165200.png]]
-
 ---
 ## Faça uma pergunta a si
 
@@ -77,3 +74,35 @@ Criar um modelo simples fornece uma **linha de base** para comparação com mode
 - Depois de treinar o modelo, use os **dados de teste** para verificar sua **capacidade de generalização**.  
 - O método `.score` de um classificador retorna a **média da precisão das predições**.  
 - Sempre aplique `.score` nos **dados de teste**, pois o desempenho nos dados de treinamento tende a ser melhor e não representa a generalização do modelo.
+# Otimize o modelo
+
+Os modelos de aprendizado de maquina possui hiperparâmetros que controlam o seu comportamento. Ao varias os seus valores, podemos alterar o desempenho dos modelos. Mas, a vários métodos de melhorar o desempenho dos modelos, como por exemplo: Na biblioteca sklearn possui uma classe de busca em grade que avalia um modelo com varias combinações de parâmetros, assim retornando melhor um resultado.
+
+## Matriz de confusão
+
+## Matriz de Confusão
+
+A **matriz de confusão (confusion matrix)** é uma ferramenta fundamental para avaliar a performance de modelos de classificação. Ela mostra a contagem de:
+
+- **Verdadeiros Positivos (VP)**: casos positivos corretamente classificados.  
+- **Falsos Positivos (FP)**: casos negativos classificados como positivos.  
+- **Verdadeiros Negativos (VN)**: casos negativos corretamente classificados.  
+- **Falsos Negativos (FN)**: casos positivos classificados como negativos.  
+
+Com base nesses valores, podemos calcular métricas importantes, como:
+
+- **Acurácia:** $(VP + VN) / total$→ porcentagem de previsões corretas.  
+- **Precisão:** $VP / (VP + FP)$ → proporção de positivos preditos que eram realmente positivos.  
+- **Recall (Sensibilidade):** $VP / (VP + FN)$ → proporção de positivos reais que foram corretamente identificados.  
+- **F1-Score:** média harmônica entre precisão e recall, útil quando há desequilíbrio entre classes.
+
+A matriz de confusão não só permite **identificar erros específicos** do modelo, mas também auxilia na **otimização de hiperparâmetros**, porque podemos ajustar o modelo para reduzir tipos específicos de erros, dependendo do problema. Por exemplo, em um modelo de detecção de fraudes, pode ser mais importante minimizar falsos negativos do que falsos positivos.
+
+## Curva ROC
+
+Um gráfico ROC (Receiver Operating Characteristic) é uma ferramenta comum, usada para avaliar classificadores. Ao calcular a área sob a curva (AUC), podemos obter uma métrica para comparar diferentes classificadores
+
+## Curva de aprendizado
+
+Uma curva de aprendizado(learning curve) é usada para nos dizer se "estamos no caminho certo". O modelo é treinado com mais e mais dados maiores e a pontuação é calculada 
+
