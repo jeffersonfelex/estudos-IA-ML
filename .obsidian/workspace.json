@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IAs/Engenharia de prompt.md",
+                "file": "IAs/Engenharia de prompt - Introdução.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Engenharia de prompt"
+              "title": "Engenharia de prompt - Introdução"
             }
           },
           {
@@ -239,7 +239,7 @@
   "active": "d0aa15463b0cb7b9",
   "lastOpenFiles": [
     "IAs/Escopo de estudos de IAs generativas.md",
-    "IAs/Engenharia de prompt.md",
+    "IAs/Engenharia de prompt - Introdução.md",
     "Machine Learning/Machine Learning/Limpeza de dados.md",
     "Machine Learning/Machine Learning/Escopo de estudos de machine learning.md",
     "Machine Learning/Machine Learning/Visão geral do processo de machine learning.md",
